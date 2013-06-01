@@ -1,0 +1,476 @@
+.ul_big_feed {
+margin: 0 0 0px 0px !important;
+}
+
+
+.ul_big_feed li {
+font-family: "Segoe UI", Tahoma, Arial, Helvetica, sans-serif;
+list-style-position: outside;
+border-bottom: dotted 1px rgb(27, 17, 250);
+line-height: 20px;
+list-style-type: none;
+}
+
+.small {
+font-size: 11px;
+line-height: 15px;
+}
+.gray {
+color: #888;
+}
+
+a:hover {
+        color: #22a657;
+        text-decoration: underline;
+}
+
+
+.js-link {
+text-decoration: none;
+border-bottom: 1px dashed;
+cursor: pointer;
+}
+
+div.report-category-list a span.r_cat-box {
+position: relative;
+}
+.r_verified {
+color: #59A815 !important;
+}
+
+#rb_list-view .problem { margin: 20px 0px; } 
+.problem .p-body { width: auto !important; float: none !important; clear: both; }
+.problem .p-body .inner { padding-bottom: 1.4em; line-height: 160%; }
+.problem .p-body .inner p { display: inline; }
+.problem .p-meta ul.small li { margin-right: 5px; }
+.problem .p-buttons li { overflow: hidden; height: 13px; }
+
+.problem .p-body {
+border: 1px solid #d7d7d7;
+background-color: #fff;
+margin: 0px;
+padding: 0px;
+/*float: left;
+width: 60%; */
+position: relative;
+z-index: 0;
+}
+
+.problem .p-meta, .poll .p-meta {
+position: relative;
+width: 100%;
+overflow: hidden;
+}
+
+.problem .p-body .fade-out, .polls .poll-item .fade-out {
+background: url('/img/fade-out-gray.png') top left no-repeat;
+}
+
+.fade-out {
+background: url('/img/fade-out-white.png') top left no-repeat;
+width: 30px;
+height: 30px;
+position: absolute;
+right: -1px;
+top: 0px;
+}
+
+.problem .p-meta ul, .poll .p-meta ul {
+background-color: #ebebeb;
+padding: 6px 10px 8px 10px;
+margin: 0px 0px 10px 0px;
+width: 3000px;
+height: 10px;
+}
+
+.small {
+font-family: Tahoma;
+font-size: 90%;
+line-height: 140%;
+}
+
+.problem .p-meta ul li, .poll .p-meta ul li {
+margin: 0px;
+padding: 0px;
+list-style-type: none;
+float: left;
+white-space: nowrap;
+}
+
+.problem .p-meta ul li a {
+text-decoration: none;
+color: #555555;
+}
+
+a.r_category {
+position: relative;
+padding-left: 15px;
+margin-right: 5px;
+text-decoration: none;
+color: #555;
+}
+
+span.r_cat-box {
+position: absolute;
+left: 0px;
+top: 2px;
+height: 10px !important;
+width: 10px !important;
+}
+
+h2 {
+position: relative;
+color: #ff202b;
+font-family: Arial, sans-serif;
+font-size: 160%;
+line-height: 120%;
+font-weight: normal;
+padding: 0;
+margin: 0 0 15px 0;
+}
+
+h2 a {
+color: #ff202b;
+text-decoration: none;
+}
+
+td.r_photo {
+padding: 3px 0px 20px 10px;
+}
+
+td.r_photo a {
+display: block;
+position: relative;
+}
+
+.problem .p-body .inner {
+padding-bottom: 1.4em;
+line-height: 160%;
+}
+
+.problem .inner, .problem h2 {
+clear: both;
+padding: 0px 10px 0px 10px;
+}
+
+.problem .p-buttons {
+margin: 0px;
+padding: 0px 10px 0px 0px;
+border-top: 1px solid #d7d7d7;
+}
+
+.problem .p-buttons li {
+margin: 0px;
+list-style-type: none;
+float: left;
+white-space: nowrap;
+padding: 6px 10px 10px 10px;
+border-right: 1px solid #d7d7d7;
+position: relative;
+}
+.problem .p-buttons li {
+overflow: hidden;
+height: 13px;
+}
+
+.bgr-gray {
+background-color: #ebebeb;
+}
+
+
+div#header {
+ height: 280px;
+// margin-left: 180px;
+ background: url(../images/bg/header_bg.png) repeat-x #fff;
+}
+
+div#headerlogo {
+/* margin-left: 180px; */
+}
+
+div.submit-incident {
+  margin: 200px 0 0px 0;
+  left: 520px;
+}
+
+div.search-form {
+padding: 0;
+margin: 0;
+float: left;
+position: absolute;
+width: 400px;
+margin: 150px 0 0 0;
+left: 620px;
+top: 0px;
+}
+
+div.search-form input.text {
+padding: 2px 0 2px 0;
+border: #9e9e9e 1px solid;
+margin: 0;
+background: #fff;
+width: 260px;
+font-size: 13px;
+color: #d75c60;
+border: 1px solid;
+}
+
+div.search-form input.text:focus,{ 
+border-color: #d75c60; 
+border: 1px solid;
+}
+
+
+div.submit-incident a, div.submit-incident a:hover {
+padding: 8px 10px 8px 10px;
+background-color: #22A657;
+//background-image: url(/themes/default/images/submit-incident.png);
+background-position: 10px 8px;
+background-repeat: no-repeat;
+color: #FFF;
+text-transform: uppercase;
+font-weight: bold;
+font-size: 14px;
+text-decoration: none;
+float: right;
+}
+
+
+/*
+Theme Name: Bueno
+Description: Repurposing the woothemes.com's Bueno Wordpress theme into an Ushahidi Theme. 
+Demo: http://www.woothemes.com/2009/11/bueno/
+Version: 1.0
+Author: Caleb Bell
+Author Email: caleb@ushahidi.com
+*/
+
+
+/* Theme Settings
+--------------------*/
+  
+  /* Primary Color */
+/*  h1, a,
+  table.table-list tbody tr td a,
+  .hover .r_details h3 a.r_title,
+  div.footermenu ul li a,
+  div.submit-incident a, .btn_submit,
+  div.filters ul li a:hover, div.filters ul li a.active,
+  ul.category-filters li a:hover, ul.category-filters li a.active { background-color:#d75c60; } */
+  
+  /* Lighter Primary Color - for hover effects */
+  div#loggedin_user_action a, div#loggedin_user_action a:visited { color:#f3686d; }
+  div.submit-incident a:hover, .btn_submit:hover,
+/*  div.search-form input.searchbtn { background-color:#f3686d; }
+  div#mainmenu ul,
+  div#mainmenu ul li a:hover,
+  div#mainmenu a.active { border-color:#cccccc; } */
+
+  
+  /* Accent Color - used on the primary nav and in the footer area */
+/*  div#mainmenu,
+  div#mainmenu ul li a, */
+  div.additional-content { border-color:#FBDDDF; }
+  div#underfooter { background:#FBDDDF; }
+  
+  /* Page Background Pattern */
+  /*----------------------*/
+  body#page { background: #fff; }
+
+
+/* Feel free to edit these, but you don't have to. */
+
+/* general styles */
+h1 {
+  font-family: 'PT Sans Narrow', arial, sans-serif;
+  font-size: 25px;
+  color:#22a657;
+}
+h2 {
+  color: #666;
+}
+h5, h4 {
+  color: #666;
+  font-family: 'PT Sans Narrow', arial, sans-serif;
+  font-size: 22px;
+  text-transform: uppercase;
+}
+
+/* structural divs */
+div#middle {
+  background: none;
+}
+.big-block {
+  margin-bottom: 26px;
+  padding: 16px 0px 10px;
+}
+div#main {
+  background: #fff;
+  padding: 15px 18px;
+  border: 5px solid #EFEFEF;
+  margin-top: 18px;
+}
+/* top-bar */
+#top-bar {
+  width: 100%;
+  background: #22A657;
+  height: 34px;
+  position: relative;
+}
+
+#middle-bar {
+  width: 100%;
+  background: #7F7F7F;
+  height: 34px;
+  position: relative;
+}
+
+
+div#searchbox {
+  position: absolute;
+  right: 0;
+  border: none;
+  background: transparent;
+  width: auto;
+}
+div.search-form input.searchbtn {
+  width: auto;
+  height: auto;
+  border: 0;
+  text-indent: 0;
+  color: #000;
+  display: block;
+  font-size: 12px;
+  background-image:none;
+  margin-left: 10px;
+  line-height: 17px;
+  padding: 2px 5px 3px;
+  text-transform: uppercase;
+//  text-shadow: 1px 1px 0 #424242;
+  font-weight: bold;
+  background-color:#D7D7D7;
+}
+
+/* header */
+/* logo box */
+div#logo {
+  background-color: transparent;
+  padding-left: 0;
+}
+div#logo h1 a {
+  color: #222222;
+  font-family: 'PT Sans Narrow', arial, sans-serif;
+  font-size: 48px;
+}
+div#logo span {
+  font-style: italic;
+  color: #999;
+  font-family: 'Georgia', serif;
+}
+/* submit report button (in the site header and on the "submit a report" page) */
+/*div.submit-incident a, .btn_submit {
+  text-shadow: 1px 1px 0 #424242;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+}
+*/
+/* primary nav */
+div#mainmenu {
+  background: none;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+//  border-bottom-width: 4px;
+//  border-bottom-style: solid;
+  padding: 0;
+  position: relative;
+}
+div#mainmenu ul {
+  position: relative;
+//  bottom: -4px;
+}
+div#mainmenu ul li {
+  margin: 0;
+  border-left: 1px solid #fff;
+  margin: 0 1px 0 -1px;
+  padding: 0 10px;
+}
+div#mainmenu ul li a {
+  font-family: arial, sans-serif;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+//  border-bottom-width: 4px;
+//  border-bottom-style: solid;
+}
+div#mainmenu ul li a:hover, div#mainmenu a.active {
+  color: inherit;
+  background: transparent;
+}
+
+/* home page map filters */
+div.filters ul li a {
+  color: #666;
+}
+div.filters ul li a:hover, div.filters ul li a.active {
+  text-shadow: 1px 1px 0 #424242;
+  color:#fff;
+}
+/* home page category filter */
+div.cat-filters {
+  /*border-bottom:1px solid #F3686D;*/
+}
+/*ul.category-filters {
+  border: 5px solid #C4C4C4;
+}
+*/
+.swatch, .item-swatch {
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+}
+ul.category-filters li a:hover, ul.category-filters li a.active {
+  background: #7f7f7f;
+}
+/* home page how to report */
+div.additional-content {
+  border-width: 5px;
+  border-style: solid;
+}
+/* Home Page incidents/Mainstream News blocks */
+div.content-container {
+  background: none;
+  color: #666;
+}
+div.content-block {
+  background: transparent;
+}
+
+/* reports listing page */
+#reports-box {
+  width: 655px;
+}
+
+#rb_list-view .rb_report {
+  background: #fff;
+}
+/* single report page */
+div.report-additional-reports h5 {
+  font-family: Arial, sans-serif;
+}
+/* get alerts page */
+.step-1 h2 {
+  padding: 0;
+}
+/* footer */
+div#footer {
+  background: #000;
+}
+
+div.footermenu ul li a {
+  text-transform: uppercase;
+  font-weight: bold;
+  border-left: 1px solid #666;
+}
+.additional-credits {
+  margin-top: 18px;
+}
